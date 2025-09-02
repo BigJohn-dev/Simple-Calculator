@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="calculator">
+                <form>
+                    <div class="input-Display">
+                        <input type="text" name="display" readonly>
+                    </div>
+                    <div class="on-btn">
+                        <button class="ON_btn" onclick="display.value += ''">ON</button>
+                    </div>
+                    <div class="effect">
+                        <button class="operator" onclick="display.value = '_|'">ab/c</button>
+                        <button class="operator" onclick="display.value = '&#8730;'">&#8730;</button>
+                        <button class="operator" onclick="display.value += '<sup>2</sup>'">x<sup>2</sup></button>
+                        <button class="operator" onclick="display.value += '^'">^</button>
+                        <button class="operator" onclick="display.value += 'log'">log</button>
+                        <button class="operator" onclick="display.value += 'In'">In</button>
+                    </div>
+                    <div>
+                        <button onclick="display.value += '-'">(-)</button>
+                        <button onclick="display.value += '.'">.,</button>
+                        <button onclick="display.value += ''">hyp</button> /*shows a mode in calculator bar hyp*/
+                        <button class="operator" onclick="display.value += 'sin'">sin</button>
+                        <button class="operator" onclick="display.value += 'cos'">cos</button>
+                        <button class="operator" onclick="display.value += 'tan'">tan</button>
+                    </div>
+                    <div>
+                        <button onclick="display.value += '4'">RCL</button> /*shows a mode in calculator bar rcl*/
+                        <button onclick="display.value += ' '">ENG</button> /*shows nothing/
+                        <button onclick="display.value += '('">(</button>
+                        <button class="operator" value="-" onclick="display.value += ')'">)</button>
+                        <button class="operator" onclick="display.value += ','">,</button>
+                        <button class="operator" onclick="display.value += '/'">M+</button> /*shows nothing/
+                    </div>
+                    <div>
+                        <button onclick="display.value += '-|'">x<sup>-1</sup></button>
+                        <button onclick="display.value += 'C'">nCr</button>
+                        <button onclick="display.value += '3'">&#9650;</button>
+                        <button class="operator" onclick="display.value += 'Pol('">Pol(</button>
+                        <button class="operator" onclick="display.value += '<sup>3</sup>'">x<sup>3</sup></button>
+                    </div>
+                    <div>
+                        <button onclick="display.value += '0'">&#9664;</button>
+                        <button onclick="display.value += '0'">&#9654;</button>
+                    </div>
+                    <div>
+                        <button onclick="display.value += '00'">SHIFT</button> /*shows a mode in calculator bar shift*/
+                        <button onclick="display.value += '0'">&#9660;</button>
+                        <button onclick="display.value += '0'">MODE</button> /*shows a mode in calculator bar Mode*/
+                    </div>
+                    <div>
+                        <button onclick="display.value += '7'">7</button>
+                        <button onclick="display.value += '8'">8</button>
+                        <button onclick="display.value += '9'">9</button>
+                        <button onclick="display.value = display.value.toString().slice(0,-1)">DEL</button>
+                        <button onclick="display.value = ''">AC</button>
+                    </div>
+                    <div>
+                        <button onclick="display.value += '4'">4</button>
+                        <button onclick="display.value += '5'">5</button>
+                        <button onclick="display.value += '6'">6</button>
+                        <button onclick="display.value += '&#215;'">&#215;</button>
+                        <button onclick="display.value += '&#247;'">&#247;</button>
+                    </div>
+                    <div>
+                        <button onclick="display.value += '1'">1</button>
+                        <button onclick="display.value += '2'">2</button>
+                        <button onclick="display.value += '3'">3</button>
+                        <button onclick="display.value += '&#43;'">&#43;</button>
+                        <button onclick="display.value += '&#8722;'">&#8722;</button>
+                    </div>
+                    <div>
+                        <button onclick="display.value += '0'">0</button>
+                        <button onclick="display.value += '.'">.</button>
+                        <button onclick="display.value += 'E'">EXP</button>
+                        <button onclick="display.value += ''">ANS</button>
+                        <button onclick="display.value ">&#61;</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
