@@ -1,4 +1,4 @@
-#Simple Calculator
+Simple-Calculator
 
 🧮 Simple Calculator
 A responsive, click-based calculator built with HTML, CSS, and JavaScript. This project performs basic arithmetic operations—addition, subtraction, multiplication, and division—through an intuitive button interface, without keyboard input.
