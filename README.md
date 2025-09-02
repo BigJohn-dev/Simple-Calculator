@@ -11,7 +11,7 @@ A responsive calculator built with HTML, CSS, and JavaScript. It performs basic 
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
-<img src="C:\Users\Dell\OneDrive\Pictures\Screenshots/calculator-view.png" alt="Simple calculator image" width="300"/>
+<img src="./images/calculator-view.png" alt="Simple calculator image" width="300"/>
 📄 Usage
 Click the buttons to perform calculations. The interface is intuitive and designed for touch or mouse input.
 🧠 Learning Goals
