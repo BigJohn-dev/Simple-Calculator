@@ -1,8 +1,8 @@
 {
     "builds": [
-        { "src": "page.html", "use": "@vercel/static" }
+        { "src": "index.html", "use": "@vercel/static" }
     ],
     "routes": [
-        { "src": "/(.*)", "dest": "/page.html" }
+        { "src": "/(.*)", "dest": "/index.html" }
     ]
 }
